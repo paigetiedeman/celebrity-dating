@@ -11,18 +11,15 @@ h1 {
   text-align: center;
 }
 
-button {
+.btn {
   background-color: #A74482;
   color: white;
   border:3px solid #693668;
 }
 
-.card-img-top {
-  padding: 4px;
-}
-
-.card {
-  border: 2px solid #FF3562;
+.row {
+  border: 2px solid #ff35616b;
+  padding: 8px;
 }
 
 label, p {
@@ -33,3 +30,4 @@ img {
   width: 50%;
   height: auto;
 }
+
