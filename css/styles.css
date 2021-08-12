@@ -1,0 +1,35 @@
+body{
+  background-color: #bebef1a6;
+}
+
+h1 {
+  color: #693668;
+  font-weight: 100;
+}
+.jumbotron {
+  background-color: #ff87abbe;
+  text-align: center;
+}
+
+button {
+  background-color: #A74482;
+  color: white;
+  border:3px solid #693668;
+}
+
+.card-img-top {
+  padding: 4px;
+}
+
+.card {
+  border: 2px solid #FF3562;
+}
+
+label, p {
+  color: #A74482;
+}
+
+img {
+  width: 50%;
+  height: auto;
+}

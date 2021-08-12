@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
@@ -7,10 +8,13 @@
   <script src="js/scripts.js"></script>
   <title>Celebrity Dating</title>
 </head>
+
 <body>
   <div class="container">
-    <h1>Welcome to Perfect Match</h1>
-    <p><em>The premier celebrity match making service</em></p>
+    <div class="jumbotron">
+      <h1>Welcome to Perfect Match</h1>
+      <p><em>The premier celebrity match making service</em></p>
+    </div>
     <p>Please fill out the form so we can match you with one of our celebrities:</p>
 
     <form id="profile">
@@ -22,14 +26,38 @@
         <option value="male">Male</option>
       </select>
 
-      <p>Ideal Date</p>
-      <select class="form-control" id="beverage">
+      <p>Pick Your Ideal Date:</p>
+      <select class="form-control" id="date">
         <option>Make a Meal Together</option>
         <option>Fancy Restaurant</option>
         <option>Netflix & Chill</option>
         <option>Go for a Hike</option>
-      </select>
-    </form>
+      </select><br>
+      <button class="btn" type="submit">Submit!</button>
+    </form><br>
+    <div class="row">
+      <div id="for-female">
+        <div class="col-sm-6">
+          <img src="img/gr.jpg">
+          <h5>Your Match!</h5>
+          <h6>Gordon Ramsay</h6>
+          <p>A Michelin star chef and TV personality hailing from Britain. You two we're made for
+            each other.</p>
+        </div>
+      </div>
+
+
+      <div id="for-male">
+        <div class="col-sm-6">
+          <img src="img/margot.jpg">
+          <h5>Your Match!</h5>
+          <h6>Margot Robbie</h6>
+          <p>An Australian born actress known best for Harley Quinn in <em>Suicide Squad.</em> You are two halves of a
+            whole.</p>
+        </div>
+      </div>
+    </div>
   </div>
 </body>
+
 </html>
